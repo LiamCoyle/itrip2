@@ -7,5 +7,18 @@
     "gulp-clean-css": "^3.7.0",
     "gulp-rename": "^1.2.0",
     "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "@angular/core": "^5.2.5",
+    "@ionic-native/core": "^4.5.3",
+    "@ionic-native/sqlite": "^4.5.3",
+    "cordova-sqlite-storage": "^2.2.1",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.20"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-sqlite-storage": {}
+    }
   }
 }
